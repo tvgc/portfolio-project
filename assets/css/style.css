@@ -99,3 +99,60 @@ footer {
 footer a {
     color: #FFF;
 }
+
+@media (max-width: 850px) {
+
+    header {
+        position: relative;
+        background-color: #3B576D;
+    }
+
+    header .menu-line {
+        background-color: #FFF;
+    }
+    
+    section.container {
+        flex-direction: column;
+    }
+
+    section.container .leftside {
+        flex: none;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    section.container .rightside {
+        flex: 1;
+    }
+
+    footer {
+        position: relative;
+        font-size: 16px;
+        color: #000;
+    }
+
+    footer a {
+        color: #000;
+    }
+   
+}
+
+@media (max-width: 450px) {
+
+    section.container h1 {
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+
+    section.container .buttons a {
+        margin-right: 0;
+        display: block;
+    }
+
+    section.container .buttons a.hire-me {
+        margin-top: 20px;
+    }
+
+}
